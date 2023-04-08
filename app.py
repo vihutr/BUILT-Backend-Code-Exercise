@@ -71,7 +71,7 @@ def update_post(post_id):
     return(updated_post)
 
 @app.delete("/posts")
-def delete_all_posts:
+def delete_all_posts():
     return
 
 @app.delete("/posts/<int:post_id>")
